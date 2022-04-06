@@ -116,7 +116,7 @@ const Footer: NextComponentType = () => {
             </p>
             <a href='' className='hover:underline' >Brasil</a>
             </div>
-            <div className='flex space-x-2 pt-2 divide-x divide-gray-300 font-sf text-sm children:not-first:text-blue-600'>
+            <div className='flex space-x-2 pt-2 divide-x divide-gray-300 font-sf text-sm children:text-blue-600'>
                 <a href="">Política de Privacidade</a>
                 <a href="">Política de vendas</a>
                 <a href="">Avisos legais</a>
