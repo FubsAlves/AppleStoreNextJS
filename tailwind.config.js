@@ -36,9 +36,6 @@ module.exports = {
       }
     },
   },
-  variants: {
-    display: [],
-  },
   plugins: [
     
   ],
