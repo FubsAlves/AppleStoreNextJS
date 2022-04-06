@@ -40,6 +40,6 @@ module.exports = {
     display: [],
   },
   plugins: [
-    require('tailwindcss-children'),
+    
   ],
 }

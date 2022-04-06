@@ -15,7 +15,7 @@ const Footer: NextComponentType = () => {
         </p>
         <div className='h-auto mt-4 flex grid grid-cols-5 font-fs text-xs text-tfgray border-t border-gray-300'>
             <div>
-                    <ul className='mt-4 children:my-2'>
+                    <ul className='mt-4 space-y-2'>
                         <li className='font-bold'>Descobrir e Comprar</li>
                         <li>Loja</li>
                         <li>Mac</li>
@@ -30,7 +30,7 @@ const Footer: NextComponentType = () => {
                     </ul>
             </div>
             <div>
-                    <ul className='mt-4 children:my-2'> 
+                    <ul className='mt-4 space-y-2'> 
                         <li className='font-bold'>Serviços</li>
                         <li>Apple Music</li>
                         <li>Apple TV+</li>
@@ -44,7 +44,7 @@ const Footer: NextComponentType = () => {
                         <li>App Store</li>
                     </ul>
                     
-                    <ul className='mt-6 children:my-2'>
+                    <ul className='mt-6 space-y-2'>
                         <li className='font-bold mt-4'>Sua Conta</li>
                         <li>Gerenciar seu ID Apple</li>
                         <li>Conta da Apple Store</li>
@@ -52,7 +52,7 @@ const Footer: NextComponentType = () => {
                     </ul>   
             </div>
             <div>
-                    <ul className='mt-4 children:my-2'>
+                    <ul className='mt-4 space-y-2'>
                         <li className='font-bold'>Apple Store</li>
                         <li>Encontre uma loja</li>
                         <li>Genius Bar</li>
@@ -66,32 +66,32 @@ const Footer: NextComponentType = () => {
                     </ul> 
             </div>
             <div>
-                    <ul className='mt-4 children:my-2'>
+                    <ul className='mt-4 space-y-2'>
                         <li className='font-bold'>Para Empresas</li>
                         <li>Apple e os negócios</li>
                         <li>Comprar para a sua empresa</li>
                     </ul>
-                    <ul className='mt-6 children:my-2'>
+                    <ul className='mt-6 space-y-2'>
                         <li className='font-bold mt-4'>Para a Educação</li>
                         <li>Apple e a Educação</li>
                         <li>Comprar para Educação Básica</li>
                         <li>Comprar para a faculdade</li>
                     </ul>
-                    <ul className='mt-6 children:my-2'>
+                    <ul className='mt-6 space-y-2'>
                         <li className='font-bold mt-4'>Para a Saúde</li>
                         <li>Apple e a Saúde</li>
                         <li>Saúde no Apple Watch</li>
                     </ul>
             </div>
             <div>
-                    <ul className='mt-4 children:my-2'>
+                    <ul className='mt-4 space-y-2'>
                         <li className='font-bold'>Valores da Apple</li>
                         <li>Acessibilidade</li>
                         <li>Meio ambiente</li>
                         <li>Privacidade</li>
                         <li>Responsabilidade dos fornecedores</li>
                     </ul>
-                    <ul className='mt-6 children:my-2'>
+                    <ul className='mt-6 space-y-2'>
                         <li className='font-bold'>Sobre a Apple</li>
                         <li>Newsroom</li>
                         <li>Liderança da Apple</li>
@@ -108,22 +108,21 @@ const Footer: NextComponentType = () => {
             Ou ligue para 0800-761-0867. Rua Leopoldo Couto de Magalhães Jr., 700, 7º<br/> andar, Itaim Bibi. São Paulo, SP. CEP: 04542-000.<br/>
             Os Serviços de Mídia da Apple são fornecidos pela Apple Services LATAM LLC.
         </p>
-        <div className='flex flex-col w-[70%]'>
-            <div className='flex justify-between pt-2 font-sf text-sm text-footergray'>
+        <div className='flex flex-col w-[70%] text-footergray'>
+            <div className='flex justify-between pt-2 font-sf text-sm'>
             <p>
                 Copyright © 2022 Apple Inc. Todos os direitos reservados. 
                 Apple Computer Brasil Ltda. CNPJ: 00.623.904/0003-35
             </p>
-            <a href='' className='hover:underline' >Brasil</a>
+            <a href='' className='font-xs hover:underline' >Brasil</a>
             </div>
-            <div className='flex space-x-2 pt-2 divide-x divide-gray-300 font-sf text-sm children:text-blue-600'>
-                <a href="">Política de Privacidade</a>
-                <a href="">Política de vendas</a>
-                <a href="">Avisos legais</a>
-                <a href="">Mapa do site</a>
+            <div className='flex py-4 divide-x divide-gray-300 font-sf text-sm text-left'>
+                <a href="" className='pr-2'>Política de Privacidade</a>
+                <a href="" className='px-2'>Política de vendas</a>
+                <a href="" className='px-2'>Avisos legais</a>
+                <a href="" className='px-2'>Mapa do site</a>
             </div>
-        </div>
-        
+        </div> 
     </footer>
   )
 }
