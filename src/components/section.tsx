@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Section: NextComponentType = () => {
   return (
-    <section className='flex justify-center items-center h-[4.5rem] bg-swhite'>
+    <section className='flex w-full justify-center items-center h-[4.5rem] bg-swhite'>
         <figure className='mt-3.0'>
             <Image src={'https://www.apple.com/v/home/am/images/logos/unicef-relief-fund/unicef_logo_dark__ejvlglygb3ee_large.png'} alt='Unicef' height={32} width={122}/>
         </figure>

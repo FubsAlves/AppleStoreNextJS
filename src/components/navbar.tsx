@@ -2,7 +2,7 @@ import { NextComponentType } from 'next'
 
 const Navbar: NextComponentType = () => {
   return (
-    <nav className='flex justify-center items-center h-11 max-h-12 bg-agray'>
+    <nav className='flex w-full justify-center items-center h-11 max-h-12 bg-agray'>
         <ul className='flex space-x-8 text-gray-400 font-sf text-fgray text-xs'>
             <li><a className='p-2 bg-no-repeat bg-center bg-apple-logo'></a></li>
             <li><a className='p-2'>Loja</a></li>

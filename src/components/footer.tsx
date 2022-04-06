@@ -108,15 +108,15 @@ const Footer: NextComponentType = () => {
             Ou ligue para 0800-761-0867. Rua Leopoldo Couto de Magalhães Jr., 700, 7º<br/> andar, Itaim Bibi. São Paulo, SP. CEP: 04542-000.<br/>
             Os Serviços de Mídia da Apple são fornecidos pela Apple Services LATAM LLC.
         </p>
-        <div>
-            <div className='flex pt-2 justify-around font-sf text-sm text-footergray'>
+        <div className='flex flex-col w-[70%]'>
+            <div className='flex justify-between pt-2 font-sf text-sm text-footergray'>
             <p>
                 Copyright © 2022 Apple Inc. Todos os direitos reservados. 
                 Apple Computer Brasil Ltda. CNPJ: 00.623.904/0003-35
             </p>
             <a href='' className='hover:underline' >Brasil</a>
             </div>
-            <div className='min-w-3/4 pt-2 grid grid-cols-4 divide-x divide-gray-300 font-sf text-sm children:px-2'>
+            <div className='flex space-x-2 pt-2 divide-x divide-gray-300 font-sf text-sm children:not-first:text-blue-600'>
                 <a href="">Política de Privacidade</a>
                 <a href="">Política de vendas</a>
                 <a href="">Avisos legais</a>

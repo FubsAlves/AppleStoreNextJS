@@ -4,9 +4,6 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      minWidth: {
-        '3/4' : '75%',
-      },
       colors: {
         'agray': '#313132',
         'fgray': '#b4b4b4',

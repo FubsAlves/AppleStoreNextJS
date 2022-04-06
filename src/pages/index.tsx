@@ -3,7 +3,6 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Section from '../components/section'
 
 const Home: NextPage = () => {
@@ -112,7 +111,6 @@ const Home: NextPage = () => {
                         </figure>
                         <a href=''><h4 className='font-fs text-lg text-blue-500 mt-4 hover:underline'>Assista Agora</h4></a>
                     </div>
-
                 </div>
           </div>
           <Footer/>
