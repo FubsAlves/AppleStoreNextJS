@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -51,6 +52,70 @@ const Home: NextPage = () => {
                     </div>
                 </div>
           </div>
+
+          <div id='end-content' className='flex grid grid-cols-2'>
+                <div className='h-screen flex flex-col items-center bg-studiodisplay bg-no-repeat bg-top'>
+                    <h3 className='font-sfdb text-4xl mt-8'>Studio Display</h3>
+                    <h4 className='font-sf text-lg'>Paixão à primeira vista.</h4>
+                    <div id='more-information-studiodisplay' className='mt-2'>
+                        <a className='font-sf text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/iphone-13-pro/'>Saiba Mais</a>
+                        <a className='font-sf ml-8 text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/shop/buy-iphone/iphone-13-pro'>Ver preços</a>
+                    </div>
+                </div>
+                <div className='h-screen flex flex-col items-center bg-macstudio bg-no-repeat bg-top'>
+                    <h3 className='font-sfdb text-4xl mt-8'>Mac Studio</h3>
+                    <h4 className='font-sf text-lg'>Usina Criativa.</h4>
+                    <p className='fs text-gray-400 text-lg'>Confira em breve a disponibilidade</p>
+                    <div id='more-information-macstudio' className='mt-2'>
+                        <a className='font-sf text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/iphone-13-pro/'>Saiba Mais</a>
+                        <a className='font-sf ml-8 text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/shop/buy-iphone/iphone-13-pro'>Ver preços</a>
+                    </div>
+                </div>
+                <div className='h-screen flex flex-col items-center bg-iphone13preorder bg-no-repeat bg-top'>
+                    <h3 className='font-sfdb text-4xl mt-8'>iPhone 13</h3>
+                    <h4 className='font-sf text-lg'>Agora verde.</h4>
+                    <p className='fs text-gray-400 text-lg'>Verde disponível a partir de 08/04.</p>
+                    <div id='more-information-iphone13' className='mt-2'>
+                        <a className='font-sf text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/iphone-13-pro/'>Saiba Mais</a>
+                        <a className='font-sf ml-8 text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/shop/buy-iphone/iphone-13-pro'>Ver preços</a>
+                    </div>
+                </div>
+                <div className='h-screen flex flex-col items-center bg-watch7 bg-no-repeat bg-top'>
+                    <figure className='mt-8'>
+                        <Image src={'https://www.apple.com/v/home/am/images/logos/watch-series-7/promo_logo_watch_lte__emrof7zzkriq_large.png'} alt='Watch Series 7' width={146} height={56}/>
+                    </figure>
+                    <h4 className='font-sf text-lg'>Nossa maior tela até hoje.</h4>
+                    <div id='more-information-studiodisplay' className='mt-2'>
+                        <a className='font-sf text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/iphone-13-pro/'>Saiba Mais</a>
+                        <a className='font-sf ml-8 text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/shop/buy-iphone/iphone-13-pro'>Ver preços</a>
+                    </div>
+                </div>
+                <div className='h-screen flex mx-1 flex-col items-center bg-applefitness bg-no-repeat bg-top'>
+                    <figure className='mt-8'>
+                        <Image src={'https://www.apple.com/v/home/am/images/logos/apple-fitness-plus/logo__dcojfwkzna2q_large.png'} alt='Apple Fitness' width={174} height={33}/>
+                    </figure>
+                    <h4 className='font-sf text-lg text-semibold'>Treine três meses de graça na <br/> compra de um Apple Watch.</h4>
+                    <div id='more-information-studiodisplay' className='mt-2'>
+                        <a className='font-sf text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/iphone-13-pro/'>Saiba Mais</a>
+                        <a className='font-sf ml-8 text-lg text-blue-500 hover:underline' href='https://www.apple.com/br/shop/buy-iphone/iphone-13-pro'>Ver preços</a>
+                    </div>
+                </div>
+                <div className='h-screen mx-1 flex flex-col grid grid-rows-2 bg-wecrashed bg-no-repeat bg-top'>
+                    <div className='mt-14 justify-self-center'>
+                        <figure>
+                            <Image src={'https://www.apple.com/v/home/am/images/logos/tv-plus/logo_light__cfvl40z2nzau_large.png'} alt='Tv Plus' width={80} height={31}/>
+                        </figure>
+                    </div>
+                    <div className='flex flex-col items-center justify-self-center'>
+                        <figure>
+                            <Image src={'https://www.apple.com/br/home/promos/tv-plus-wecrashed/images/promo_logo_wecrashed__dxtx3ltplaqa_large.png'} alt='Tv Plus' width={395} height={125}/>
+                        </figure>
+                        <a href=''><h4 className='font-fs text-lg text-blue-500 mt-4 hover:underline'>Assista Agora</h4></a>
+                    </div>
+
+                </div>
+          </div>
+          <Footer/>
       </div>
         
   )
