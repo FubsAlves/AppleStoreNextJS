@@ -1,7 +1,7 @@
 import { NextComponentType } from 'next'
 import Image from 'next/image'
 
-const Section: NextComponentType = () => {
+const Unicef: NextComponentType = () => {
   return (
     <section className='flex w-full justify-center items-center h-[4.5rem] bg-swhite'>
         <figure className='mt-3.0'>
@@ -12,4 +12,4 @@ const Section: NextComponentType = () => {
   )
 }
 
-export default Section
+export default Unicef

@@ -3,7 +3,8 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Head from 'next/head'
 import Image from 'next/image'
-import Section from '../components/section'
+import Section from '../components/unicef'
+import Unicef from '../components/unicef'
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +14,7 @@ const Home: NextPage = () => {
               <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           </Head>
           <Navbar/>
-          <Section/>
+          <Unicef/>
           <div id='main-content' className='flex flex-col items-center h-screen bg-iphone13sale bg-top bg-auto bg-no-repeat'>
               
               <h1 className='font-sfb font-semibold text-6xl mt-14'>iPhone 13 Pro</h1>
