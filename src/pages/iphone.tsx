@@ -13,7 +13,7 @@ const Iphone: NextPage = () => {
           </Head>
           <Navbar/>
           <div className='flex justify-center my-4'>
-              <ul className='flex font-s text-xs text-footergray font-medium space-x-8'>
+              <ul className='flex font-sfb font-bold text-xs text-footergray font-medium space-x-8'>
                   <a href='#' className='hover:text-blue-400'><li className='flex flex-col items-center'><figure><Image src={'https://www.apple.com/v/iphone/home/be/images/chapternav/iphone_13_pro_light__bywz8u012wk2_large.svg'} alt='iPhone 13 Pro' height={54} width={38}/></figure>iPhone 13 Pro<span className='text-orange-400 text-[10px]'>Novo</span></li></a>
                   <a href='#' className='hover:text-blue-400'><li className='flex flex-col items-center'><figure><Image src={'https://www.apple.com/v/iphone/home/be/images/chapternav/iphone_13_light__ewo3e0sf67o2_large.svg'} alt='iPhone 13' height={54} width={36}/></figure>iPhone 13<span className='text-orange-400 text-[10px]'>Novo</span ></li></a>
                   <a href='#' className='hover:text-blue-400'><li className='flex flex-col items-center'><figure><Image src={'https://www.apple.com/v/iphone/home/be/images/chapternav/iphone_se_light__fhg8duy6ffau_large.svg'} alt='iPhone SE' height={54} width={19}/></figure>iPhone SE<span className='text-orange-400 text-[10px]'>Novo</span></li></a>
@@ -27,6 +27,7 @@ const Iphone: NextPage = () => {
                   <a href='#' className='hover:text-blue-400'><li className='flex flex-col items-center'><figure><Image src={'https://www.apple.com/v/iphone/home/be/images/chapternav/shop_iphone_light__b2toggskllle_large.svg'} alt='Compare iPhone' height={54} width={60}/></figure>Comparar iPhone</li></a>
               </ul>
           </div>
+          <div className='flex justify-center items-center py-2 bg-swhite'><p className='font-sf text-xs'>Pague seu novo iPhone em até 12 parcelas ou economize 10% nos pagamentos à vista. <a className='text-blue-500'>Saiba mais</a></p></div>
           <Footer/>
       </div>
         
